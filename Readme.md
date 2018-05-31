@@ -1,7 +1,8 @@
 # Личный проект «Глейси»
 
 * Студент: [Елена Косорукова](https://up.htmlacademy.ru/htmlcss/21/user/801895).
-* Наставник: [Роман Гуринович] (https://htmlacademy.ru/profile/id561773). 
+* Наставник: <a href="https://github.com/fixmylie">Роман Гуринович<a>
+
 
 ---
 
