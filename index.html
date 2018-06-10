@@ -64,7 +64,7 @@
     <ul class="slider-list">
       <li class="slider1">
         <h4> Крем-брюле и пломбир с малиновым джемом</h4>
-        <img src="img/slider1.png" width="704" height="668" alt="Крем-брюле и пломбир">
+        <img src="img/slider1.png" width="704" height="669" alt="Крем-брюле и пломбир">
         <form action="/Creme-brulee-and-plombir.html/">               
          <button class="button-slider" type="submit">Давайте оба!</button>       
       </form>
@@ -90,7 +90,7 @@
     <ul class="banner-list ">
       <li class="banner1 ">
         <h4>Малинка даром!</h4>
-        <img class="banner-image1 " src="img/banner1.jpg " width="560 " height="231 " alt="Малинка ">
+        <img class="banner-image " src="img/banner1.jpg " width="560 " height="231 " alt="Малинка ">
         <p>При покупке 2 кг любого фруктового мороженого, добавим
           <br> в ваш заказ банку малинового варенья бесплатно.</p>
           <form action="/fruit-icecream.html/">               
@@ -99,7 +99,7 @@
             </li>
       <li class="banner2 ">
         <h4>Шоколадки даром!</h4>
-        <img class="banner-image2 " src="img/banner2.jpg " width="560 " height="231 " alt="Шоколадная присыпка ">
+        <img class="banner-image " src="img/banner2.jpg " width="560 " height="231 " alt="Шоколадная присыпка ">
         <p>При покупке 2 кг бломбира, добавим в ваш заказ упаковку
           <br> вкуснейшей шоколадной присыпки бесплатно.</p>
           <form action="/Plombir.html/">               
@@ -112,58 +112,42 @@
   <main class="popular-product">
     <h3 class="visually-hidden">Популярные продукты</h3>
     <ul class="popular-product-list">
-      <li class="catalog-item">
-        <p class="catalog-item-image">
+      <li class="catalog-item">      
           <a href="catalog-item.html">
             <img src="img/hit1.jpg" width="267" height="274" alt="Сливочное с джемом и цитрусовой стружкой">
-          </a>
-        </p>
-        <p class="catalog-item-price">
-          <b>310 ₽</b>
-          <a class="button" href="#">Купить</a>
-        </p>
+          </a>      
+        <b class="catalog-item-price">310 ₽</b>
+          <a class="button" href="#"> Купить</a>        
         <a href="catalog-item.html">
           <span class="catalog-category">Сливочное с апельсиновым джемом и цитрусовой стружкой</span>
         </a>
       </li>
       <li class="catalog-item">
-        <p class="catalog-item-image">
           <a href="catalog-item.html">
             <img src="img/hit2.jpg" width="267" height="274" alt="Сливочно-кофейное с шоколадом">
           </a>
-        </p>
-        <p class="catalog-item-price">
-          <b>380 ₽</b>
-          <a class="button" href="#">Купить</a>
-        </p>
+        <b class="catalog-item-price">380 ₽</b>
+          <a class="button" href="#"> Купить</a>        
         <a href="catalog-item.html">
           <span class="catalog-category">Сливочно-кофейное с кусочками шоколада</span>
         </a>
       </li>
       <li class="catalog-item">
-        <p class="catalog-item-image">
-          <a href="catalog-item.html">
+         <a href="catalog-item.html">
             <img src="img/hit3.jpg" width="267" height="274" alt="Сливочно-клубничное с шоколадом">
-          </a>
-        </p>
-        <p class="catalog-item-price">
-          <b>355 ₽</b>
-          <a class="button" href="#">Купить</a>
-        </p>
-        <a href="catalog-item.html">
+          </a>        
+        <b class="catalog-item-price">355 ₽</b>
+          <a class="button" href="#"> Купить</a>
+           <a href="catalog-item.html">
           <span class="catalog-category">Сливочно-клубничное с присыпкой из белого шоколада</span>
         </a>
       </li>
-      <li class="catalog-item">
-        <p class="catalog-item-image">
+      <li class="catalog-item">        
           <a href="catalog-item.html">
             <img src="img/hit4.jpg" width="267" height="274" alt="Крем-брюле с карамелью">
-          </a>
-        </p>
-        <p class="catalog-item-price">
-          <b>415 ₽</b>
-          <a class="button" href="#">Купить</a>
-        </p>
+          </a>        
+        <b class="catalog-item-price">415 ₽</b>
+          <a class="button" href="#">Купить</a>      
         <a href="catalog-item.html">
           <span class="catalog-category">Сливочное крем-брюле с карамельной подливкой</span>
         </a>
@@ -301,17 +285,14 @@
     <h2>Мы обязательно вам ответим!</h2>
     <section class="feedback">        
         <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-          <p class="feedback-item">
-            <label class="visually-hidden" for="feddback-name">Напишите свое имя</label>
+          <p class="feedback-item">            
             <input id="feedback-name" type="text" name="name" value="" placeholder="Как вас зовут?" required>
           </p>
-          <p class="feedback-item">
-            <label class="visually-hidden" for="feedback-time">Напишите свою электронную почту</label>
-            <input id="feedback-time" type="text" name="email" value="" placeholder="Ваша почта для ответа?" required>
+          <p class="feedback-item">            
+            <input id="feedback-email" type="text" name="email" value="" placeholder="Ваша почта для ответа?" required>
           </p>
-          <p class="feedback-item">
-            <label class="visually-hidden" for="feedback-text">Отставьте свой отзыв</label>
-            <textarea id="feedback-text" row="30" cols="30" placeholder="Напишите что-нибудь..." required></textarea>
+          <p class="feedback-item">            
+            <textarea id="feedback-text" rows="5" cols="30" placeholder="Напишите что-нибудь..." required></textarea>
           </p>          
           <button class="button-feedback" type="submit">Отправить</button>
         </form>  
