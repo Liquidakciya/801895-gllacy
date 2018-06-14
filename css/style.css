@@ -11,12 +11,13 @@ body {
 }
 
 .inner-page {
-    color: #000000;  
-    background-color: #f9f6f3;  
-    }
+  color: #000000;
+  background-color: #f9f6f3;
+}
+
 a {
-  color: #ffffff;  
- }
+  color: #ffffff;
+}
 
 a:focus,
 a:hover,
@@ -61,12 +62,14 @@ a:active {
   color: #ffffff;
 }
 
-.site-navigation a:hover {
+.site-navigation a:hover,
+.user-navigation a:hover {
   color: #333333;
   background-color: #f7f6f3;
 }
 
-.site-navigation a:focus {
+.site-navigation a:focus,
+.user-navigation a:focus {
   color: #333333;
   background-color: #f7f6f3;
 }
@@ -81,11 +84,6 @@ a:active {
   background-color: #f6b5a5;
 }
 
-.user-navigation a:hover,
-.user-navigation a:focus {
-  background-color: #242424;
-}
-
 .slider-list {
   list-style: none;
 }
@@ -94,26 +92,51 @@ a:active {
   font-size: 60px;
   line-height: 65px;
   font-weight: bold;
+  text-align: center;
 }
 
 .button {
+  font: inherit;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
   color: #ffffff;
   background: linear-gradient(#f26843, #e74b36);
+  border: none;
 }
 
-a:hover .button {
+.button:hover {
+  color: #ffffff;
   background: linear-gradient(#f58669, #ec6f5e);
 }
 
-a:focus .button {
+.button:focus {
+  color: #ffffff;
+  background: linear-gradient(#f58669, #ec6f5e);
+}
+
+.button:active {
   background: linear-gradient(#d84732, #e1603e);
 }
 
 .button.slider {
+  width: 286px;
+  height: 68px;
+  margin: 50px;
+  padding-top: 20px;
+  border-radius: 30px;
+  border: none;
+  font: inherit;
   font-size: 32px;
   line-height: 44px;
   font-weight: bold;
-  background: linear-gradient(#f26843, #e74b36);
+  background-image: linear-gradient(#f26843, #e74b36);
+  background-color: #ef6140;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
 
 .banner-list {
@@ -133,9 +156,22 @@ a:focus .button {
 }
 
 .button.banner {
+  width: 164px;
+  height: 47px;
+  margin: 50px;
+  padding-top: 20px;
+  border-radius: 30px;
+  border: none;
+  font: inherit;
   font-size: 18px;
-  line-height: 22px;
-  background-color: #ea5339;
+  line-height: 24px;
+  font-weight: bold;
+  background-image: linear-gradient(#f26843, #e74b36);
+  background-color: #ef6140;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
 
 .popular-product-list {
@@ -143,45 +179,48 @@ a:focus .button {
 }
 
 .features {
-background-image: url("img/waffle.jpg") no-repeat; 
-background-color: #eee2c7; 
- }
+  background-image: url('../img/waffle.jpg');
+  background-color: #eee2c7;
+}
 
 .features-list {
-    list-style: none;   
+  list-style: none;
 }
 
 .features h3 {
   font-size: 24px;
   line-height: 30px;
-  font-weight: medium;
+  font-weight: 500;
   color: #323232;
 }
 
 .features p {
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: regular;
-    color: #323232;
-  }
-    
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+
 .article10 {
-    background-image: url('./img/article-image.jpg');     
-    background-color: #ffffff;    
-    color: #323232;
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: bold;
-    
+  background-image: url('../img/article-image.jpg');
+  background-color: #ffffff;
+  color: #323232;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
 }
+
 .article10 h2 {
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: medium;
-    color: #323232;
-
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #323232;
 }
-.article-link a {
-    color: #323232;
-    }
 
+.article10 a {
+  color: #323232;
+}
+
+.article10 a:hover,
+.article10 a:focus {
+  color: #e84d37;
+}
