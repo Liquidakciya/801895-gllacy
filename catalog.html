@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>Магазин мороженого «Глейси»</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="inner-page">
@@ -334,7 +337,7 @@
 
   <footer class="main-footer ">
     <div class="footer-social ">
-      <ul>
+      <ul class="footer-social-list">
         <li>
           <a class="twitter" href="# ">Твиттер</a>
         </li>
@@ -371,8 +374,8 @@
       <a href="https://htmlacademy.ru/intensive/htmlcss ">HTML Academy</a> &#169; 2017
     </p>
   </footer>
-  <section class="cart">
-    <table>
+  <section class="modal cart">
+    <table class="cart-table">
       <tr>
         <th class="visually-hidden">Наименование товара</th>
         <th class="visually-hidden">Количество товара, кг</th>
@@ -381,19 +384,19 @@
       </tr>
       <tr>
         <td class="cart-product">Пломбир с апельсиновым джемом</td>
-        <td class="cart-Weight">1,5 кг</td>
+        <td class="cart-weight">1,5 кг</td>
         <td class="cart-price">200 руб.</td>
-        <td>300 руб.</td>
+        <td class="cart-price-total">300 руб.</td>
       </tr>
       <tr>
-        <td class="cart-product">Клубничнй пломбир с присыпкой
+        <td class="cart-product">Клубничный пломбир с присыпкой
           <br> из белого шоколада</td>
-        <td class="cart-Weight">1,5 кг</td>
+        <td class="cart-weight">1,5 кг</td>
         <td class="cart-price">300 руб.</td>
-        <td class="cart-total-cost">450 руб.</td>
+        <td class="cart-price-total">450 руб.</td>
       </tr>
-      <tr>
-        <td colspan="4" style="text-align:right ">ИТОГО:</td>
+      <tr >
+        <td class="cart-total-cost" colspan="3" style="text-align:right ">Итого:</td>
         <td class="cart-total-cost">750 руб.</td>
       </tr>
     </table>
@@ -403,8 +406,9 @@
   <section class="catalog-item-prevew">
     <h2 class="visually-hidden">Карточка товара</h2>
     <a href="catalog-item.html">
-      <img src="creamy-strawberry.jpg" width="286" height="164" alt="Сливочно-клубничное">
+      <img src="img/hit3.jpg" width="267" height="268" alt="Сливочно-клубничное">
     </a>
+    <p class="cost prevew">355 <span class="cost kg-prevew">/кг</span></p>
     <button class="button prevew">Быстрый просмотр</button>
     <button class="modal-close" type="button">Закрыть</button>
   </section>

@@ -220,7 +220,7 @@
   </main>
   <footer class="main-footer ">
     <div class="footer-social ">
-      <ul>
+      <ul class="footer-social-list">
         <li>
           <a class="twitter" href="# ">Твиттер</a>
         </li>
@@ -264,7 +264,7 @@
     <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
       <p>
         <label class="visually-hidden" for="user-email">Электронная почта</label>
-        <input class="Email-icon-user" id="user-email" type="text" name="email" placeholder="Электронная почта" required>
+        <input class="email-icon-user" id="user-email" type="text" name="email" placeholder="Электронная почта" required>
       </p>
       <p>
         <label class="visually-hidden" for="user-password">Пароль</label>
@@ -283,7 +283,7 @@
   <section class="modal modal-search ">
     <form class="search-form">
       <p>
-        <input type="search" name="q" placeholder="Что ищем">
+        <input class="search-area" type="search" name="q" placeholder="Что ищем">
     </form>
   </section>
   <section class="modal modal-feedback ">
@@ -291,13 +291,13 @@
     <section class="feedback">
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
         <p class="feedback-item">
-          <input id="feedback-name" type="text" name="name" value="" placeholder="Как вас зовут?" required>
+          <input class="feedback-name" id="feedback-name-id" type="text" name="name" value="" placeholder="Как вас зовут?" required>
         </p>
         <p class="feedback-item">
-          <input id="feedback-email" type="text" name="email" value="" placeholder="Ваша почта для ответа?" required>
+          <input class="feedback-email" id="feedback-email-id" type="text" name="email" value="" placeholder="Ваша почта для ответа?" required>
         </p>
         <p class="feedback-item">
-          <textarea id="feedback-text" name="feedback-area" rows="5" cols="30" placeholder="Напишите что-нибудь..." required></textarea>
+          <textarea class="feedback-text" id="feedback-text-id" name="feedback-area" rows="5" cols="30" placeholder="Напишите что-нибудь..." required></textarea>
         </p>
         <button class="button feedback-send" type="submit">Отправить</button>
       </form>
