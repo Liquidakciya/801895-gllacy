@@ -114,14 +114,14 @@
 
       <h3 class="visually-hidden">Акции магазина мороженого «Глэйси»</h3>       
       <ul class="banner-list ">  
-        <li class]="banner1">         
+        <li class="banner malinka">         
         <h4>Малинка даром!</h4>
         <img class="banner-image " src="img/banner1.jpg " width="560 " height="231 " alt="Малинка ">
         <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>        
           <a href="fruit-icecream.html" class="button banner">Хочу варенье!</a>
         </li>
 
-      <li class="banner2 ">
+      <li class="banner shoco ">
         <h4>Шоколадки даром!</h4>
         <img class="banner-image " src="img/banner2.jpg " width="560 " height="231 " alt="Шоколадная присыпка ">
         <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки бесплатно.</p>                
@@ -197,9 +197,9 @@
       </ul>
     </section>
 
-    <section class="article10-subscribe">
+    <section class="article-subscribe">
       
-    <article class="article10">
+    <article class="article">
       <h2>Новое в нашем блоге</h2>
       <a class="article-link" href="article.html ">
         <p class="article-text">10 способов сервировки
@@ -212,39 +212,37 @@
       <h3 class="visually-hidden ">Рассылка</h3>
       <p class="subscribe-info">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
       <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
-        <input type="text" name="email" value="" placeholder="Электронная почта" required>
+        <input class="subscribe-input" type="text" name="email" value="" placeholder="Электронная почта" required>
         <button class="button subscribe" type="submit">Отправить</button>
       </form>         
       </div>
     </section>
   
 
-    <section class="modal modal-map">
-      <h2 class="visually-hidden">Как до нас добраться</h2>
-      <p>
-        <img src="img/map.jpg" width="1250" height="640" alt="Наш магазин находится по адресу: ул.Большая Конюшенная, 19/8, Санкт-Петербург">
-      </p>
-      <button class="modal-close" type="button">Закрыть</button>
-    </section>
-  
-
-    <p class="contacts-feedback">
-      <span>Адрес главного офиса
-        <br> и офлайн-магазина:</span>
+    <section class="map">
+      <h2 class="visually-hidden">Как до нас добраться</h2>     
+      <div class="contacts-feedback">
+      Адрес главного офиса
+        <br> и офлайн-магазина:
       <br>
-      <span>
+      
         <strong>ул. Большая Конюшенная 19/8,
           <br> Санкт-Петербург</strong>
       </span>
       <br>
-      <span>Для заказов по телефону:</span>
+      Для заказов по телефону:
       <br>
-      <span>
+      
         <strong>8 812 450-25-25</strong>
-        <br> (с 10 до 20 ежедневно)</span>
+        <br> (с 10 до 20 ежедневно)
       <br>
       <button class="button feedback" type="button">Форма обратной связи</button>
-    </p>
+    </div> 
+      
+    </section>
+  
+
+  
   </main>
 
   <footer class="main-footer ">
@@ -253,36 +251,37 @@
 
       <ul class="social-button">
         <li>
-         <a class="twitter" href="# ">Твиттер</a>
+         <a class="social-icon twitter" href="# ">Твиттер</a>
         </li>
         <li>
-          <a class="instagram" href="# ">Инстаграм</a>
+          <a class="social-icon instagram" href="# ">Инстаграм</a>
         </li>
         <li>
-          <a class="facebook " href="# ">Фейсбук</a>
+          <a class="social-icon facebook " href="# ">Фейсбук</a>
         </li>
         <li>
-          <a class="vontakte" href="# ">Вконтакте</a>
+          <a class="social-icon vkontakte" href="# ">Вконтакте</a>
         </li>
       </ul>
     </section>
 
-<div class="suppliers-documents">
-    <p class="suppliers-production ">
+<ul class="suppliers-documents">
+    <li class="suppliers-production bold">
       <a class="suppliers" href="# ">
-        <b>Для поставщиков</b>
-      </a>
-      <br>
+        Для поставщиков
+      </a>    
+    </li>
+    <li class="suppliers-production">
       <a class="production" href="# ">
-        <b>О производстве</b>
+        О производстве
       </a>
-    </p>
-    <p class="documents-standarts ">
-      <a class="documents" href="#">Наши документы</a>
-      <br>
+    </li>
+
+    <li class="suppliers-production ">
+      <a class="documents" href="#">Наши документы</a>      
       <a class="standarts" href="# ">Экологические стандарты</a>
-    </p>
-</div>
+    </li>
+  </ul>
 
 <div class="footer-copyright-container">
     <a class="main-footer-logo " href="https://htmlacademy.ru/intensive/htmlcss ">
