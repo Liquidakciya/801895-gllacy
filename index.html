@@ -49,7 +49,6 @@
 
     </ul>
 
-
     <div class="container-usernav">
       <ul class="user-navigation">
         <li class="search-link">
@@ -66,59 +65,71 @@
 
     </nav>
 
-    <p class="contacts">
+    <div class="contacts">
       <span class="work-time">с 10 до 20, ежедневно</span>
       <br>
       <span class="telephone-number">8 812 450-25-25</span>
-    </p>
+    </div>
+    
   </header>
 
-  <section class="slider-container">
-    <h3 class="visually-hidden">Предложения магазина мороженого «Глейси»</h3>
-    <ul class="slider-list">
-      <li class="slider1">
-        <h4> Крем-брюле и пломбир
-          <br> с малиновым джемом</h4>
-        <img class="slider-image" src="img/slider1.png" width="704" height="669" alt="Крем-брюле и пломбир">
-        <a href="Creme-brule-and-plombir.html" class="button slider">Давайте оба!</a>
-      </li>
-      <li class="slider2 ">
-        <h4>Шоколадный пломбир
-          <br> и лимонный сорбет</h4>
-        <img class="slider-image" src="img/slider2.png " width="704 " height="669 " alt="Шоколадный пломбир и сорбет ">
-        <a href="Chocolate-plombir-and-lemon-sorbet.html" class="button slider">Давайте оба!</a>
-      </li>
-      <li class="slider3">
-        <h4>Пломбир с помадкой
-          <br> и клубничный щербет</h4>
-        <img class="slider-image" src="img/slider3.png" width="704" height="668" alt="Пломбир с помадкой и щербет">
-        <a href="Plombir-with-sherbet.html" class="button slider">Давайте оба!</a>
-      </li>
-    </ul>
-  </section
-
+  <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+    <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+    <input class="visually-hidden" type="radio" id="product-3" name="toggle">
+    <div class="site-wrapper">
+      <div class="container">
+        <header class="main-header"></header>
+        <section class="slider">
+          <div class="slider-controls">
+            <label for="product-1">Первый</label>
+            <label for="product-2">Второй</label>
+            <label for="product-3">Третий</label>
+          </div>
+          <ul class="slider-list">
+            <li class="slider-item slide" id="slide1">
+              <h3 class="slide-title">
+                Крем-брюле и пломбир с малиновым джемом
+              </h3>
+              <a class="button slide-button" href="#">Давайте оба!</a>
+            </li>
+            <li class="slider-item slide" id="slide2">
+              <h3 class="slide-title">
+                Шоколадный пломбир и лимонный сорбет
+              </h3>
+              <a class="button slide-button" href="#">Давайте оба!</a>
+            </li>
+            <li class="slider-item slide" id="slide3">
+              <h3 class="slide-title">
+                Пломбир с помадкой и клубничный щербет
+              </h3>
+              <a class="button slide-button" href="#">Давайте оба!</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
   
-  <h3 class="visually-hidden">Акции магазина мороженого «Глэйси»</h3>    
 
   <section class="banner-container">  
-     
-      <div class="banner1 ">
+
+      <h3 class="visually-hidden">Акции магазина мороженого «Глэйси»</h3>       
+      <ul class="banner-list ">  
+        <li class]="banner1">         
         <h4>Малинка даром!</h4>
         <img class="banner-image " src="img/banner1.jpg " width="560 " height="231 " alt="Малинка ">
-        <p>При покупке 2 кг любого фруктового мороженого, добавим
-          <br> в ваш заказ банку малинового варенья бесплатно.</p>        
+        <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>        
           <a href="fruit-icecream.html" class="button banner">Хочу варенье!</a>
-        </div>
+        </li>
 
-      <div class="banner2 ">
+      <li class="banner2 ">
         <h4>Шоколадки даром!</h4>
         <img class="banner-image " src="img/banner2.jpg " width="560 " height="231 " alt="Шоколадная присыпка ">
-        <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку
-          <br> вкуснейшей шоколадной присыпки бесплатно.</p>                
+        <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки бесплатно.</p>                
           <a href="Plombir.html" class="button banner">Хочу шоколадки!</a>       
-        </div>    
+      </li> 
+      </ul>
 
-  </section>
+    </section>
 
   <main>
   <section class= "popular-product">
@@ -160,8 +171,7 @@
     <section class="features ">
       <h1 class="visually-hidden ">Магазин мороженого «Глейси»</h1>
       <h2 class="visually-hidden ">Преимущества</h2>
-      <h3>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного
-        <br> производства на развес</h3>
+      <h3>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</h3>
       <ul class="features-list ">
         <li class="feature-item ">
           <p>Все наше мороженое изготавливается на собственном
@@ -236,11 +246,14 @@
       <button class="button feedback" type="button">Форма обратной связи</button>
     </p>
   </main>
+
   <footer class="main-footer ">
+   
     <section class="footer-social ">
-      <ul class="footer-social-list">
+
+      <ul class="social-button">
         <li>
-          <a class="twitter" href="# ">Твиттер</a>
+         <a class="twitter" href="# ">Твиттер</a>
         </li>
         <li>
           <a class="instagram" href="# ">Инстаграм</a>
@@ -249,10 +262,12 @@
           <a class="facebook " href="# ">Фейсбук</a>
         </li>
         <li>
-          <a class="kontakte" href="# ">Вконтакте</a>
+          <a class="vontakte" href="# ">Вконтакте</a>
         </li>
       </ul>
     </section>
+
+<div class="suppliers-documents">
     <p class="suppliers-production ">
       <a class="suppliers" href="# ">
         <b>Для поставщиков</b>
@@ -267,13 +282,17 @@
       <br>
       <a class="standarts" href="# ">Экологические стандарты</a>
     </p>
+</div>
+
+<div class="footer-copyright-container">
     <a class="main-footer-logo " href="https://htmlacademy.ru/intensive/htmlcss ">
       <img src="img/logo-htmlacademy.svg " width="109 " height="41 " alt="Логотип HTML-академии ">
     </a>
-    <p class="footer-copyright ">
-      Сделано в
-      <a href="https://htmlacademy.ru/intensive/htmlcss ">HTML Academy</a> &#169; 2017
+    <p class="footer-copyright "></p>
+      Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss ">HTML Academy</a> &#169; 2017
     </p>
+</div>
+
   </footer>
 
   <section class="modal modal-login">
