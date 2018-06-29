@@ -7,6 +7,220 @@ body {
   color: #ffffff;
   text-transform: none;
   background-color: #849d8f;
-  min-width: 1146px;  
+  min-width: 1146px;
 }
 
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.main-header {
+  margin: 0 auto;
+  width: 1146px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+  align-self: flex-end;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation {
+  display: flex;
+  width: 190px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-navigation {
+  display: flex;
+  width: 270px;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.banner-list {
+  margin: 35px auto;
+  list-style: none;
+  display: flex;
+  width: 1146px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  height: 226px;
+}
+
+.banner.raspberry {
+  background-image: url('../img/banner1.jpg');
+  background-repeat: no-repeat;
+  background-color: #a50229;
+}
+
+.banner.chocolate {
+  background-image: url('../img/banner2.jpg');
+  background-repeat: no-repeat;
+  background-color: #432314;
+}
+
+.button.banner {
+  align-self: flex-end;
+}
+
+.popular-product-list {
+  margin: 60px auto;
+  display: flex;
+  width: 1146px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog-item {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.features {
+  color: #323232;
+  list-style: none;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  width: 1146px;
+  background-image: url('../img/waffle.jpg');
+  background-repeat: repeat;
+  background-color: #ece0c7;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature-item {
+  width: 545px;
+}
+
+.article-subscribe {
+  color: #323232;
+  margin: 60px auto;
+  display: flex;
+  width: 1146px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article {
+  width: 560px;
+  height: 220px;
+  background-image: url('../img/article-image.jpg');
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.article-text {
+  width: 295px;
+}
+
+.subscribe {
+  display: flex;
+  width: 560px;
+  flex-direction: column;
+  background-image: url('../img/subscribe-white.jpg'), url("data:image/svg+xml;charset=UTF-8,%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='560px' height='220px' viewBox='0 0 560 220' enable-background='new 0 0 560 220' xml:space='preserve'%3e%3cpath fill='%23F8F7F4' d='M560,205c0,8.25-6.75,15-15,15H15c-8.25,0-15-6.75-15-15V15C0,6.75,6.75,0,15,0h530c8.25,0,15,6.75,15,15 V205z'/%3e%3cg%3e%3cpath fill='%23F8F7F4' d='M545,0H20.729L0,20.729V205c0,8.25,6.75,15,15,15h530c8.25,0,15-6.75,15-15V15C560,6.75,553.25,0,545,0z'/%3e%3cpath fill='%23F8F7F4' d='M10.246,0.79C5.807,2.287,2.287,5.807,0.79,10.246L10.246,0.79z'/%3e%3c/g%3e%3cpath fill='%2392CDFF' d='M20.741,0H15c-1.655,0-3.245,0.283-4.737,0.784l-9.479,9.479C0.283,11.755,0,13.345,0,15v5.741L20.741,0z'/%3e%3cpolygon fill='%23FE9E90' points='0,40.116 40.116,0 30.423,0 0,30.423 '/%3e%3cpolygon fill='%2392CDFF' points='0,59.504 59.504,0 49.811,0 0,49.811 '/%3e%3cpolygon fill='%23FE9E90' points='0,78.891 78.891,0 69.197,0 0,69.197 '/%3e%3cpolygon fill='%2392CDFF' points='0,98.278 98.278,0 88.584,0 0,88.584 '/%3e%3cpolygon fill='%23FE9E90' points='0,117.665 117.665,0 107.971,0 0,107.971 '/%3e%3cpolygon fill='%2392CDFF' points='0,137.052 137.052,0 127.358,0 0,127.358 '/%3e%3cpolygon fill='%23FE9E90' points='0,156.438 156.438,0 146.745,0 0,146.745 '/%3e%3cpolygon fill='%2392CDFF' points='0,175.826 175.826,0 166.133,0 0,166.134 '/%3e%3cpolygon fill='%23FE9E90' points='0,195.213 195.213,0 185.52,0 0,185.521 '/%3e%3cpath fill='%2392CDFF' d='M204.907,0L0,204.907V205c0,2.746,0.761,5.317,2.063,7.538L214.601,0H204.907z'/%3e%3cpath fill='%23FE9E90' d='M14.036,219.951L233.987,0h-9.694L6.775,217.519C8.888,218.914,11.371,219.779,14.036,219.951z'/%3e%3cpolygon fill='%2392CDFF' points='33.375,220 253.375,0 243.68,0 23.681,220 '/%3e%3cpolygon fill='%23FE9E90' points='52.762,220 272.762,0 263.067,0 43.068,220 '/%3e%3cpolygon fill='%2392CDFF' points='72.149,220 292.148,0 282.454,0 62.455,220 '/%3e%3cpolygon fill='%23FE9E90' points='91.536,220 311.535,0 301.842,0 81.842,220 '/%3e%3cpolygon fill='%2392CDFF' points='110.923,220 330.923,0 321.229,0 101.229,220 '/%3e%3cpolygon fill='%23FE9E90' points='130.31,220 350.31,0 340.615,0 120.616,220 '/%3e%3cpolygon fill='%2392CDFF' points='149.697,220 369.696,0 360.003,0 140.003,220 '/%3e%3cpolygon fill='%23FE9E90' points='169.084,220 389.083,0 379.391,0 159.39,220 '/%3e%3cpolygon fill='%2392CDFF' points='188.471,220 408.472,0 398.777,0 178.777,220 '/%3e%3cpolygon fill='%23FE9E90' points='207.858,220 427.857,0 418.164,0 198.165,220 '/%3e%3cpolygon fill='%2392CDFF' points='227.246,220 447.247,0 437.552,0 217.552,220 '/%3e%3cpolygon fill='%23FE9E90' points='246.632,220 466.633,0 456.938,0 236.938,220 '/%3e%3cpolygon fill='%2392CDFF' points='266.021,220 486.021,0 476.325,0 256.325,220 '/%3e%3cpolygon fill='%23FE9E90' points='285.406,220 505.406,0 495.713,0 275.713,220 '/%3e%3cpolygon fill='%2392CDFF' points='304.794,220 524.794,0 515.1,0 295.1,220 '/%3e%3cpolygon fill='%23FE9E90' points='324.181,220 544.181,0 534.486,0 314.486,220 '/%3e%3cpath fill='%2392CDFF' d='M343.568,220L557.22,6.349c-1.34-1.883-3.094-3.453-5.137-4.557L333.874,220H343.568z'/%3e%3cpath fill='%23FE9E90' d='M362.955,220L560,22.955V15c0-0.555-0.036-1.102-0.096-1.642L353.262,220H362.955z'/%3e%3cpolygon fill='%2392CDFF' points='382.342,220 560,42.342 560,32.648 372.648,220 '/%3e%3cpolygon fill='%23FE9E90' points='401.729,220 560,61.729 560,52.037 392.036,220 '/%3e%3cpolygon fill='%2392CDFF' points='421.117,220 560,81.118 560,71.422 411.423,220 '/%3e%3cpolygon fill='%23FE9E90' points='440.504,220 560,100.504 560,90.809 430.81,220 '/%3e%3cpolygon fill='%2392CDFF' points='459.892,220 560,119.892 560,110.196 450.196,220 '/%3e%3cpolygon fill='%23FE9E90' points='479.278,220 560,139.278 560,129.583 469.583,220 '/%3e%3cpolygon fill='%2392CDFF' points='498.665,220 560,158.665 560,148.972 488.972,220 '/%3e%3cpolygon fill='%23FE9E90' points='518.052,220 560,178.052 560,168.357 508.357,220 '/%3e%3cpolygon fill='%2392CDFF' points='537.438,220 560,197.438 560,187.746 527.746,220 '/%3e%3cpath fill='%23FE9E90' d='M559.798,207.335l-12.463,12.463C553.721,218.787,558.787,213.721,559.798,207.335z'/%3e%3c/svg%3e ");
+  background-size: 540px 202px, 560px 220px;
+  background-repeat: no-repeat, repeat-x;
+  background-color: #ffffff, #fe9e90;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-input {
+  width: 365px;
+}
+
+.button.subscribe {
+  margin-left: auto;
+  width: 130px;
+}
+
+.map {
+  width: 100%;
+  height: 432px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../img/map.jpg');
+}
+
+.contacts-feedback {
+  width: 300px;
+  height: 308px;
+  display: flex;
+  flex-direction: column;
+  color: #323232;
+  margin-left: auto;
+  background-image: url('../img/subscribe-white.jpg');
+  background-color: #ffffff;
+}
+
+.contacts-feedback-text {
+  width: 250px;
+}
+
+.button.feedback {
+  width: 250px;
+}
+
+.main-footer {
+  display: flex;
+  width: 1146px;
+  margin: 35px auto;
+  justify-content: space-between;
+}
+
+.social-button {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+  justify-content: space-between;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+}
+
+.suppliers-standarts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 340px;
+  justify-content: space-between;
+}
+
+.footer-copyright-container {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+}
