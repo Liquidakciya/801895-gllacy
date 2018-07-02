@@ -224,3 +224,63 @@ body {
   flex-direction: column;
   width: 205px;
 }
+
+.breadcrumbs {
+    display: flex;
+    justify-content: space-between;
+    width: 267px;
+    margin-top: 10px; 
+    margin-left: 60px; 
+}
+
+.page-title { 
+  margin-top: 10px; 
+  margin-left: 60px; 
+}
+
+.filters {
+  margin-top: 27px; 
+  margin-left: 60px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.droprown {
+  width: 195px;
+  height: 60px;
+}
+.range {
+  width: 222px;
+  height: 60px;
+}
+.fatness {
+  display: flex;
+  justify-content: space-between;
+  width: 412px;
+  height: 60px;
+}
+.fills {
+  display: flex;
+  justify-content: space-between;
+  width: 701px;
+  height: 60px;
+}
+.button.filter {
+  width: 138px;  
+  margin-left: auto;
+}
+
+.catalog-list {
+  margin: 60px auto;
+  display: flex;
+  width: 1146px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pagination-list {
+  display: flex;  
+  justify-content: flex-end;
+  width: 1146px;  
+  margin: 70px auto;    
+}
