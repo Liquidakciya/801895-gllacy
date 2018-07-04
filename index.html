@@ -56,14 +56,14 @@
     </ul>
 
       <ul class="user-navigation">
-        <li class="search-link">
-          <a class="search-link" href="search.html"><span class="visually-hidden">Поиск</span></a>
+        <li >
+          <a class="search-link button-search" href="search.html"><span class="visually-hidden">Поиск</span></a>
         </li>
-        <li class="login-link">
-          <a class="login-link" href="login.html">Вход</a>
+        <li >
+          <a class="login-link button-link" href="login.html"><span class="text-button-login">Вход</span></a>
         </li>
-        <li class="cart-link">
-          <a class="search-link" href="cart.html">Корзина</a>
+        <li  >
+          <a class="cart-link button-link" href="cart.html"><span class="visually-hidden">Корзина</span><span class="text-button-cart">Пусто</span></a>
         </li>
       </ul>
    
@@ -137,28 +137,29 @@
   <section class= "popular-product">
     <h3 class="visually-hidden">Популярные продукты</h3>
     <ul class="popular-product-list">
-      <li class="catalog-item">
+    <li class="catalog-item special">
         <a href="catalog-item.html">
           <img src="img/hit1.jpg" width="267" height="264" alt="Сливочное с джемом и цитрусовой стружкой">
         </a>
         <p class="catalog-item-price">310 ₽<span class="cost-kg">/кг</span></p>
         <a class="catalog-category" href="catalog-item.html">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
-              </li>
-      <li class="catalog-item">
+            
+            </li>
+      <li class="catalog-item special">
         <a  href="catalog-item.html">
           <img src="img/hit2.jpg" width="267" height="264" alt="Сливочно-кофейное с шоколадом">
         </a>
         <p class="catalog-item-price">380 ₽<span class="cost-kg">/кг</span></p>
         <a class="catalog-category" href="catalog-item.html">Сливочно-кофейное с кусочками шоколада</a>
       </li>
-      <li class="catalog-item">
+      <li class="catalog-item special">
         <a href="catalog-item.html">
           <img src="img/hit3.jpg" width="267" height="264" alt="Сливочно-клубничное с шоколадом">
         </a>
         <p class="catalog-item-price">355 ₽<span class="cost-kg">/кг</span></p>
         <a class="catalog-category" href="catalog-item.html">Сливочно-клубничное с присыпкой из белого шоколада</a>
       </li>
-      <li class="catalog-item">
+      <li class="catalog-item special">
         <a href="catalog-item.html">
           <img src="img/hit4.jpg" width="267" height="264" alt="Крем-брюле с карамелью">
         </a>
@@ -172,27 +173,19 @@
       <h1 class="visually-hidden ">Магазин мороженого «Глейси»</h1>
       <h2 class="visually-hidden ">Преимущества</h2>
       <h3>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</h3>
-      <ul class="features-list ">
-        <li class="feature-item ">
-          <p>Все наше мороженое изготавливается на собственном
-            <br> производстве, с использованием современного оборудования
-            <br> и проверенных временем технологий.</p>
+      <ul class="features-list">
+        <li class="feature-item icecream ">
+          <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
         </li>
-        <li class="feature-item ">
-          <p>Для приготовления мороженого используются настоящие
-            <br> сливки и молоко высочайшего качества. Все дополнительные
-            <br> ингредиенты и добавки произведены из натурального,
-            <br> экологически чистого сырья.</p>
+        <li class="feature-item cow">
+            <p>Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+          
         </li>
-        <li class="feature-item ">
-          <p>Закупка ингредиентов производится только у проверенных
-            <br> фермерских хозяйств и компаний, с которыми нас связывает
-            <br> долговременное сотрудничество.</p>
+        <li class="feature-item eco">
+            <p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
         </li>
-        <li class="feature-item ">
-          <p>Доставка нашего мороженого до заказчиков осуществляется
-            <br> в специальном термопаке, который не дает мороженому
-            <br> растаять в пути и позволяет сохранить превосходный вкус.</p>
+        <li class="feature-item thermometer ">
+          <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
         </li>
       </ul>
     </section>
@@ -221,13 +214,19 @@
       <h2 class="visually-hidden">Как до нас добраться</h2>   
 
     <div class="contacts-feedback">
-      <p> Адрес главного офиса<br> и офлайн-магазина:</p>            
+      <div class="contacts-feedback-text">
+      <p> Адрес главного офиса <br> и офлайн-магазина:</p>            
       <p class="contacts-feedback-bold">ул. Большая Конюшенная 19/8,</p>
-      <p class="contacts-feedback-bold">Санкт-Петербург</p>        
+      <p class="contacts-feedback-bold">Санкт-Петербург</p>    
+      
+      <div class="contacts-feedback-block ">
       <p>Для заказов по телефону:</p>    
       <p class="contacts-feedback-bold">8 812 450-25-25</p>
-      <p>(с 10 до 20 ежедневно)</p>      
+      <p>(с 10 до 20 ежедневно)</p> 
+      </div>
+    </div>     
       <button class="button feedback" type="button">Форма обратной связи</button>
+      
     </div>       
     </section>
   
@@ -262,12 +261,12 @@
       </ul>    
 <section class="suppliers-standarts">
 <ul class="suppliers-documents">
-    <li><a class="suppliers bold" href="# "> Для поставщиков </a></li>
-    <li> <a class="documents" href="#">Наши документы</a></li>
+    <li class="suppliers bold"><a href="# "> Для поставщиков </a></li>
+    <li class="documents" > <a href="#">Наши документы</a></li>
 </ul>
     <ul class="production-standarts">
-     <li> <a class="production" href="# "> О производстве </a> </li>       
-     <li> <a class="standarts" href="# ">Экологические стандарты</a></li>
+     <li class="production"> <a  href="# "> О производстве </a> </li>       
+     <li class="production"> <a href="# ">Экологические стандарты</a></li>
   </ul>
 </section>
 
